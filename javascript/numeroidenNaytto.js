@@ -41,7 +41,7 @@ function numeroidenNaytto(){
 				},100);
 	}
 	
-	function nappainPainallus(nappain){
+	function nappainpainallus(nappain){
 		
 		
 	}
@@ -54,8 +54,8 @@ function numeroidenNaytto(){
 		},
 		odota: odota,
 		vaihdaLukua: vaihdaLukua,
-		nappainPainallus: function (nappain){
-			nappainPainallus(nappain);
+		nappainpainallus: function (nappain){
+			nappainpainallus(nappain);
 		}
 	}
 }

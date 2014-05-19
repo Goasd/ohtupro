@@ -38,7 +38,7 @@ function seuraavaToiminto(){
 		
 	}
 	
-	function nappainPainallus(nappain){
+	function nappainpainallus(nappain){
 		if(nappain == 13){
 			a.kaynnistaNumeroidenNayttoTesti();
 		}
@@ -50,8 +50,8 @@ function seuraavaToiminto(){
 		kaynnista: function (){
 			kaynnista();
 		},
-		nappainPainallus: function (nappain){
-			nappainPainallus(nappain);
+		nappainpainallus: function (nappain){
+			nappainpainallus(nappain);
 		}
 	}
 	

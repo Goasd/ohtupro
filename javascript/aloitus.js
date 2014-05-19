@@ -43,7 +43,7 @@ function aloitus(){
 				
 	}
 	
-	function nappainPainallus(nappain){
+	function nappainpainallus(nappain){
 			console.log("asd");
 		if(nappain == 13){
 			a.kaynnistaNumeroidenNayttoTesti();
@@ -56,8 +56,8 @@ function aloitus(){
 		kaynnista: function (){
 			kaynnista();
 		},
-		nappainPainallus: function (nappain){
-			nappainPainallus(nappain);
+		nappainpainallus: function (nappain){
+			nappainpainallus(nappain);
 		}
 	}
 	 

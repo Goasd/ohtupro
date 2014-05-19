@@ -59,13 +59,13 @@ var a = function (){
 
 		console.log(key);
 		if(tila == 1){
-			aloita.nappainPainallus(key); 
+			aloita.nappainpainallus(key); 
 		}else if(tila == 2){
 			// 
 		}else if(tila == 3){
-			vastauksenAnto.nappainPainallus(key);
+			vastauksenAnto.nappainpainallus(key);
 		}else if(tila == 4){
-			seuraava.nappainPainallus(key);
+			seuraava.nappainpainallus(key);
 		}
 	}
 

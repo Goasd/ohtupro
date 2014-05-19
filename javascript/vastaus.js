@@ -60,7 +60,7 @@ function vastaus(){
 		a.kaynnistaSeuraavanToiminnonValinta();
 	}
 
-	function nappainPainallus(nappain){
+	function nappainpainallus(nappain){
 		if(nappain >= 48 && nappain <= 57){
 			lisaa(nappain-48);
 		}else if(nappain == 8){
@@ -84,8 +84,8 @@ function vastaus(){
 		lahetaTulosPalvelimelle: function (){
 			lahetaTulosPalvelimelle();
 		},
-		nappainPainallus: function (nappain){
-			nappainPainallus(nappain);
+		nappainpainallus: function (nappain){
+			nappainpainallus(nappain);
 		}
 	}
 }
