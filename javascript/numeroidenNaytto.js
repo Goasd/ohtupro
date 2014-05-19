@@ -1,4 +1,4 @@
-
+console.log("numeroidenNaytto.js");
 function numeroidenNaytto(){
 	var luku = 0;
 	var luvut = new Array(1,2,4,4,2,2);

@@ -1,11 +1,14 @@
+console.log("aloitus.js");
 
-function seuraavaToiminto(){
-	
+
+function aloitus(){
+		  
 	function kaynnista(){
-		var seuraavaToimintoRuutu = document.createElement("div");
-		seuraavaToimintoRuutu.setAttribute("id", "a"); 
-		
-		
+		var aloitusRuutu = document.createElement("div");
+		aloitusRuutu.setAttribute("id", "a"); 
+			
+			 
+			
 		var ul = document.createElement("ul");
 			
 		var li = document.createElement("li");
@@ -28,24 +31,27 @@ function seuraavaToiminto(){
 			
 		ul.appendChild(li);
 		ul.appendChild(li2);
-		seuraavaToimintoRuutu.appendChild(ul);
+		aloitusRuutu.appendChild(ul);
 			
 		aloitusHarjoitus.appendChild(harjoitus);
 		aloitusTesti.appendChild(testi);
 			
-		document.body.appendChild(seuraavaToimintoRuutu)
+		document.body.appendChild(aloitusRuutu)
 			
+		console.log("aloitus2");
 		
+				
 	}
 	
 	function nappainPainallus(nappain){
+			console.log("asd");
 		if(nappain == 13){
 			a.kaynnistaNumeroidenNayttoTesti();
 		}
 		
 	}
 	
-
+			
 	return {
 		kaynnista: function (){
 			kaynnista();
@@ -54,5 +60,5 @@ function seuraavaToiminto(){
 			nappainPainallus(nappain);
 		}
 	}
-	
+	 
 }

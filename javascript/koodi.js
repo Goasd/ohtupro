@@ -1,4 +1,4 @@
-
+console.log("koodi.js");
 var a = function (){
  
 	var tila = 0;
@@ -19,10 +19,12 @@ var a = function (){
 		harjoitus = true;
 		kaynnistaNumeroidenNaytto();
 	}
+	
 	function kaynnistaNumeroidenNayttoTesti(){
 		harjoitus = false;
 		kaynnistaNumeroidenNaytto();
 	}
+	
 	function kaynnistaNumeroidenNaytto(){ 
 		nollaa();
 		tila = 2; 

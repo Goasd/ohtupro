@@ -1,14 +1,11 @@
-
-
-
-function aloitus(){
-		  
+console.log("seuraavaToiminto.js");
+function seuraavaToiminto(){
+	
 	function kaynnista(){
-		var aloitusRuutu = document.createElement("div");
-		aloitusRuutu.setAttribute("id", "a"); 
-			
-			 
-			
+		var seuraavaToimintoRuutu = document.createElement("div");
+		seuraavaToimintoRuutu.setAttribute("id", "a"); 
+		
+		
 		var ul = document.createElement("ul");
 			
 		var li = document.createElement("li");
@@ -31,27 +28,24 @@ function aloitus(){
 			
 		ul.appendChild(li);
 		ul.appendChild(li2);
-		aloitusRuutu.appendChild(ul);
+		seuraavaToimintoRuutu.appendChild(ul);
 			
 		aloitusHarjoitus.appendChild(harjoitus);
 		aloitusTesti.appendChild(testi);
 			
-		document.body.appendChild(aloitusRuutu)
+		document.body.appendChild(seuraavaToimintoRuutu)
 			
-		console.log("aloitus2");
 		
-				
 	}
 	
 	function nappainPainallus(nappain){
-			console.log("asd");
 		if(nappain == 13){
 			a.kaynnistaNumeroidenNayttoTesti();
 		}
 		
 	}
 	
-			
+
 	return {
 		kaynnista: function (){
 			kaynnista();
@@ -60,5 +54,5 @@ function aloitus(){
 			nappainPainallus(nappain);
 		}
 	}
-	 
+	
 }

@@ -1,4 +1,4 @@
-
+console.log("vastaus.js");
 function vastaus(){
 	 
 	
