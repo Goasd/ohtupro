@@ -1,8 +1,6 @@
 
 var a = function (){
 
-	var luku = 0;
-	var luvut = new Array(1,2,4,4,2,2);
 	var aloita;
 	var v;
 	var tila = 0;
@@ -58,7 +56,6 @@ var a = function (){
 
 		console.log(key);
 		if(tila == 1){
-			console.log("asd");
 			aloita.nappainPainallus(key); 
 		}else if(tila == 2){
 			// 
