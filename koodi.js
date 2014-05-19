@@ -1,10 +1,11 @@
 
 var a = function (){
-
-	var aloita;
-	var v;
+ 
 	var tila = 0;
 	var harjoitus;
+	
+	var aloita;
+	var vastauksenAnto;
 	var seuraava;
 	
 	function kaynnistaAloitus(){
@@ -35,8 +36,8 @@ var a = function (){
 	function kaynnistaVastauksenAnto(){
 		nollaa();
 		tila = 3;
-		v = new vastaus();
-		v.kaynnista();
+		vastauksenAnto = new vastaus();
+		vastauksenAnto.kaynnista();
 	}
 	
 	function kaynnistaSeuraavanToiminnonValinta(){
@@ -60,7 +61,7 @@ var a = function (){
 		}else if(tila == 2){
 			// 
 		}else if(tila == 3){
-			v.nappainPainallus(key);
+			vastauksenAnto.nappainPainallus(key);
 		}else if(tila == 4){
 			seuraava.nappainPainallus(key);
 		}
